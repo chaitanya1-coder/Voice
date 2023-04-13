@@ -12,20 +12,26 @@ This page allows to record and convert american sign language shown by a person 
 # Install dependencies and run on your local machine :
 NodeJs, Tensorflow and Python should be installed on your machine. Clone the project onto your local machine.
 
+```
 git clone https://github.com/chaitanya1-coder/Voice
+```
 
 Install all the python packages and start server. 
 
+```
 cd MODEL
 pip install -r requirements.txt
 cd ../
+```
 
 To run the web application:
+```
 npm i
 npm start
+```
 
 The application runs on Chrome/Firefox or any other web browser of your local machine. 
-The server runs on localhost:3000 on your local machine.
+The server runs on ``` http://localhost:3000/ ``` on your local machine.
 
 # Demostration Video
 https://youtu.be/QxQzFm7nENU
